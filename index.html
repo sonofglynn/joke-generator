@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+	<title>Joke Generator</title> 
+    <!-- Link JavaScript file -->
+	<script src="index.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=PT Sans Narrow' rel='stylesheet'>
+</head> 
+<body> 
+	<h1 id="main-title">Joke Generator</h1> 
+    <div id="setup-button-container">
+        <button onclick="generateSetup(this)">Tell me a joke</button>
+    </div>
+    
+    <div id="setup-container"></div>
+
+    <div class="separator-div"></div>
+
+    <div id="punchline-button-container"></div>
+
+    <div id="punchline-container"></div>
+
+    <div class="separator-div"></div>
+
+    <div id="new-joke-button-container"></div>
+
+	<footer>Developed by Matthew Spencer<br>Jokes courtesy of https://github.com/15Dkatz/official_joke_api</footer>
+</body> 
+</html> 
